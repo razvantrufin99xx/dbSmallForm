@@ -83,8 +83,8 @@ namespace dbSmallForm
         private void textBox1_MouseDown(object sender, MouseEventArgs e)
         {
 
-             pc = (Math.Floor(e.X / cellw));
-             pr = (Math.Floor((e.Y / cellh) / 2));
+             pr = (Math.Floor(e.X / cellw));
+             pc = (Math.Floor((e.Y / cellh) / 2));
 
             this.textBox2.Text = e.X.ToString();
             this.textBox3.Text = e.Y.ToString();
